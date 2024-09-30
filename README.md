@@ -3,7 +3,7 @@ Mengambil API dari (Anilist, MyAnimeList, TMDB)
 
 ## Installation
 
-Pasang kode RasganeJS di atas `</head>`.
+Pasang kode APIScript di atas `</head>`.
 
 Dapatkan file `APIScript.js`
 Tambahkan kode dari file tersebut ke dalam tag `<script>`.
