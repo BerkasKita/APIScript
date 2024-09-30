@@ -1,6 +1,19 @@
 # APIScript
 Mengambil API dari (Anilist, MyAnimeList, TMDB)
 
+## Installation
+
+Pasang kode RasganeJS di atas `</head>`.
+
+Dapatkan file `APIScript.js`
+Tambahkan kode dari file tersebut ke dalam tag `<script>`.
+
+```html
+<script type='text/javascript'>/*<![CDATA[*/
+  /*Add Code Here*/
+/*]]>*/</script>
+```
+
 ## Contoh Penerapan
 ```javascript
 // Contoh Penggunaan APIScript
