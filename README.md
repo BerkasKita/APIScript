@@ -19,9 +19,14 @@ Tambahkan kode dari file tersebut ke dalam tag `<script>`.
 // Contoh Penggunaan APIScript
 const apiFeed = new APIScript();
 
-// Contoh pemanggilan data dari API Anilist
-apiFeed.fetchAnilist(1234, function (data) {
-  console.log('Data dari Anilist:', data);
+// Contoh pemanggilan data Anime dari API Anilist
+apiFeed.fetchAnilist(1234, 'anime', function (data) {
+  console.log('Data Anime dari Anilist:', data);
+});
+
+// Contoh pemanggilan data Manga dari API Anilist
+apiFeed.fetchAnilist(1234, 'manga', function (data) {
+  console.log('Data Manga dari Anilist:', data);
 });
 
 // Contoh pemanggilan data dari API TMDB untuk Movie
