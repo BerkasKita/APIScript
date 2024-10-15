@@ -26,13 +26,26 @@ apiFeed.fetchAnilist(1234, function (data) {
 
 // Contoh pemanggilan data dari API TMDB untuk Movie
 const tmdbApiKey = 'API_KEY_TMDB'; // Ganti dengan API Key TMDB Anda
+
+// Contoh pemanggilan data dari API TMDB untuk Movie
 apiFeed.fetchTMDBMovie(550, tmdbApiKey, function (data) {
   console.log('Data dari TMDB (Movie):', data);
+});
+
+// Contoh pemanggilan data Trailer dari API TMDB untuk Movie
+apiFeed.fetchTMDBMovieVideo(550, tmdbApiKey, function (data) {
+  console.log('Data Trailer dari TMDB (Movie):', data);
 });
 
 // Contoh pemanggilan data dari API TMDB untuk TV Series
 apiFeed.fetchTMDBTVSeries(1399, tmdbApiKey, function (data) {
   console.log('Data dari TMDB (TV Series):', data);
+});
+
+// Contoh pemanggilan data Trailer dari API TMDB untuk TV Series
+const season = '1'; // Ganti dengan number (1,2,3,4...)
+apiFeed.fetchTMDBTVSeries(1399, season, tmdbApiKey, function (data) {
+  console.log('Data Trailer dari TMDB (TV Series):', data);
 });
 
 // Contoh pemanggilan data dari API Jikan dengan type 'anime'
